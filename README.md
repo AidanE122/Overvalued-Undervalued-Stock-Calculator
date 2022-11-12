@@ -5,4 +5,4 @@ Can be a good reference to estimate future stock values that have a linear divid
 
 File can easily be run through the command prompt on your computer, just cd to the directory containing main.py and run using 'python main.py'
 
-
+By importing yfinance, this program is able to access any stock tickers with data on the Yahoo! Finance website. Note that in the application's current state, information such as a stock's expected dividend growth rate must be maunally entered due to web scraping not being implemented yet.
