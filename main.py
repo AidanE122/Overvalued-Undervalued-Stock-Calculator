@@ -41,7 +41,7 @@ def percentLowerThanZero(GGM, marketPrice):
 
 ticker = input('What is the ticker of your stock?\t').upper()
 retrieveData = finance.Ticker(ticker).info
-marketPrice = retrieveData['regularMarketPrice']
+marketPrice = retrieveData['currentPrice']
 
 quarterlyDividend = float(input('What is the quarterly dividend of this stock (in USD)?\t'))
 
